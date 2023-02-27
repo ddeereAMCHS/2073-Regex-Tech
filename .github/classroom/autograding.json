@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "javac RegexDateTime.java",
+      "run": "java RegexDateTime",
+      "input": "date1.txt\r\ntime1.txt\r\ndatetime1.txt",
+      "output": "01/02/03 is a valid date\r\n13/24/99 is not a valid date\r\n6-8-1999 is a valid date\r\n01-02-2003 is a valid date\r\n5/20/15 is a valid date\r\n07-43-19 is not a valid date\r\n07/03/1988 is a valid date\r\nab-cd-ef is not a valid date\r\n11/1/1990 is a valid date\r\n9-15-05 is a valid date\r\n12-04-12 is a valid date\r\n9/2/230 is not a valid date\r\n\r\n12:57 is a valid time\r\n25:32 is not a valid time\r\n3:43 AM is a valid time\r\n3:63 is not a valid time\r\n19:23 is a valid time\r\n7:43 XM is not a valid time\r\n19:23 AM is not a valid time\r\n12:3 is not a valid time\r\n5:55 is a valid time\r\n01:23 PM is a valid time\r\n\r\n01/02/03 12:57 is a valid datetime\r\n13/24/99 3:43 AM is not a valid datetime\r\n25:32 6-8-1999 is not a valid datetime\r\n01-02-2003 19:23 is a valid datetime\r\n5/20/15 7:43 XM is not a valid datetime\r\n07-43-19 3:63 is not a valid datetime\r\n07/03/1988 5:55 is a valid datetime\r\nab-cd-ef 19:23 AM is not a valid datetime\r\n11/1/1990 5:55 is a valid datetime\r\n9-15-05 5:55 is a valid datetime\r\n12-04-12 01:23 PM is a valid datetime\r\n9/2/230 12:3 is not a valid datetime",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
