@@ -20,7 +20,7 @@
 - Print whether each filename is a valid filename or not
   - A filename is valid if it follows the format name.ext
     - name is any alphanumeric character, digit, dot, underscore, or dash
-    - ext is three to four letters
+    - ext is one to four letters
 
 ***Example Input:***\
 ip1.txt\
