@@ -1,33 +1,31 @@
-# Regex Date/Time
+# Regex Tech
 
-## Due: Tue 2/28 at 11:59 PM
+## Due: Mon 3/6 at 11:59 PM
 
-- Create a program called `RegexDateTime.java`
-- Prompt the user for a filename containing dates
-- Prompt the user for a filename containing times
-- Prompt the user for a filename containing datetimes
-- Read in all the lines from the dates file into an ArrayList
-- Read in all the lines from the times file into another ArrayList
-- Read in all the lines from the datetimes file into another ArrayList
-- Print whether each date is a valid date or not
-  - A date is valid if it follows any of the following formats where months and days can have leading zeroes or not and each number is valid for that field
-    - MM-DD-YYYY
-    - MM/DD/YYYY
-    - MM-DD-YY
-    - MM/DD/YY
-- Print whether each time is a valid time or not
-  - A time is valid if it follows any of the following formats where # is a digit, follows either military time or standard time, and each number is valid for that field (hours can have a leading zero or not)
-    - ##:##
-    - ##:## AM (not valid if time is in military time)
-    - ##:## PM (not valid if time is in military time)
-- Print whether each datetime is a valid datetime or not
-  - A datetime is valid if it follows the format for date and time
-    - A datetime can have the date then the time or the time then the date
+- Create a program called `RegexTech.java`
+- Prompt the user for a filename containing IP addresses
+- Prompt the user for a filename containing URLs
+- Prompt the user for a filename containing filenames
+- Read in all the lines from the IP addresses file into an ArrayList
+- Read in all the lines from the URLs file into another ArrayList
+- Read in all the lines from the filenames file into another ArrayList
+- Print whether each IP address is a valid IP address or not
+  - An IP address is valid if it follows the format #.#.#.# where # is a number between 0 and 255
+- Print whether each URL is a valid URL or not
+  - A URL is valid if it follows the format scheme://host
+    - scheme is either http or https
+    - host is a valid domain name that follows the format subdomain.topdomain with an optional www. at the start
+      - topdomain is one of com, org, net, edu, or gov
+      - subdomain is 2 to 63 alphanumeric characters or dash
+- Print whether each filename is a valid filename or not
+  - A filename is valid if it follows the format name.ext
+    - name is any alphanumeric character, digit, dot, underscore, or dash
+    - ext is three to four letters
 
 ***Example Input:***\
-date1.txt\
-time1.txt\
-datetime1.txt\
+ip1.txt\
+url1.txt\
+file11.txt\
 ***Example Output:***\
 01/02/03 is a valid date\
 13/24/99 is not a valid date\
