@@ -45,10 +45,10 @@ http://www.old3.net is a valid URL\
 https://maybe.nope is not a valid URL\
 \
 valid.txt is a valid filename\
-NOT!VALID.jpg is not a valid filenam\
+NOT!VALID.jpg is not a valid filename\
 also_valid.pdf is a valid filename\
-no.extension is not a valid filenam\
+no.extension is not a valid filename\
 is-valid2.ext is a valid filename\
-c#@0$.o is not a valid filenam\
+c#@0$.o is not a valid filename\
 Valid.as.Well.file is a valid filename\
 program.c is a valid filename
