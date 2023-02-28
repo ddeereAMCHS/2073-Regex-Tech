@@ -27,39 +27,28 @@ ip1.txt\
 url1.txt\
 file1.txt\
 ***Example Output:***\
-01/02/03 is a valid date\
-13/24/99 is not a valid date\
-6-8-1999 is a valid date\
-01-02-2003 is a valid date\
-5/20/15 is a valid date\
-07-43-19 is not a valid date\
-07/03/1988 is a valid date\
-ab-cd-ef is not a valid date\
-11/1/1990 is a valid date\
-9-15-05 is a valid date\
-12-04-12 is a valid date\
-9/2/230 is not a valid date\
+192.168.1.1 is a valid IP address\
+a.b.c.d is not a valid IP address\
+255.255.255.255 is a valid IP address\
+312.212.987.432 is not a valid IP address\
+0.0.0.0 is a valid IP address\
+144.12.12.256 is not a valid IP address\
+72.58.19.248 is a valid IP address\
 \
-12:57 is a valid time\
-25:32 is not a valid time\
-3:43 AM is a valid time\
-3:63 is not a valid time\
-19:23 is a valid time\
-7:43 XM is not a valid time\
-19:23 AM is not a valid time\
-12:3 is not a valid time\
-5:55 is a valid time\
-01:23 PM is a valid time\
+http://www.howdy.com is a valid URL\
+htp://bad.com is not a valid URL\
+https://tamu.edu is a valid URL\
+https://ww.what.org is not a valid URL\
+https://bye-bye.org is a valid URL\
+https://not_gonna_work.com is not a valid URL\
+http://www.old3.net is a valid URL\
+https://maybe.nope is not a valid URL\
 \
-01/02/03 12:57 is a valid datetime\
-13/24/99 3:43 AM is not a valid datetime\
-25:32 6-8-1999 is not a valid datetime\
-01-02-2003 19:23 is a valid datetime\
-5/20/15 7:43 XM is not a valid datetime\
-07-43-19 3:63 is not a valid datetime\
-07/03/1988 5:55 is a valid datetime\
-ab-cd-ef 19:23 AM is not a valid datetime\
-11/1/1990 5:55 is a valid datetime\
-9-15-05 5:55 is a valid datetime\
-12-04-12 01:23 PM is a valid datetime\
-9/2/230 12:3 is not a valid datetime
+valid.txt is a valid filename\
+NOT!VALID.jpg is not a valid filenam\
+also_valid.pdf is a valid filename\
+no.extension is not a valid filenam\
+is-valid2.ext is a valid filename\
+c#@0$.o is not a valid filenam\
+Valid.as.Well.file is a valid filename\
+program.c is a valid filename\
