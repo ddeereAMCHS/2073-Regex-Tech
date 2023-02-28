@@ -51,4 +51,4 @@ no.extension is not a valid filenam\
 is-valid2.ext is a valid filename\
 c#@0$.o is not a valid filenam\
 Valid.as.Well.file is a valid filename\
-program.c is a valid filename\
+program.c is a valid filename
