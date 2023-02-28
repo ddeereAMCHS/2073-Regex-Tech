@@ -1,0 +1,8 @@
+valid.txt
+NOT!VALID.jpg
+also_valid.pdf
+no.extension
+is-valid2.ext
+c#@0$.o
+Valid.as.Well.file
+program.c
