@@ -19,7 +19,7 @@
       - subdomain is 2 to 63 alphanumeric characters or dash
 - Print whether each filename is a valid filename or not
   - A filename is valid if it follows the format name.ext
-    - name is any alphanumeric character, digit, dot, underscore, or dash
+    - name is any alphanumeric character, dot, underscore, or dash
     - ext is one to four letters
 
 ***Example Input:***\
