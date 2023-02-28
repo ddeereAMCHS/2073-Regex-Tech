@@ -2,10 +2,10 @@
   "tests": [
     {
       "name": "Test 1",
-      "setup": "javac RegexDateTime.java",
-      "run": "java RegexDateTime",
-      "input": "date1.txt\r\ntime1.txt\r\ndatetime1.txt",
-      "output": "01/02/03 is a valid date\r\n13/24/99 is not a valid date\r\n6-8-1999 is a valid date\r\n01-02-2003 is a valid date\r\n5/20/15 is a valid date\r\n07-43-19 is not a valid date\r\n07/03/1988 is a valid date\r\nab-cd-ef is not a valid date\r\n11/1/1990 is a valid date\r\n9-15-05 is a valid date\r\n12-04-12 is a valid date\r\n9/2/230 is not a valid date\r\n\r\n12:57 is a valid time\r\n25:32 is not a valid time\r\n3:43 AM is a valid time\r\n3:63 is not a valid time\r\n19:23 is a valid time\r\n7:43 XM is not a valid time\r\n19:23 AM is not a valid time\r\n12:3 is not a valid time\r\n5:55 is a valid time\r\n01:23 PM is a valid time\r\n\r\n01/02/03 12:57 is a valid datetime\r\n13/24/99 3:43 AM is not a valid datetime\r\n25:32 6-8-1999 is not a valid datetime\r\n01-02-2003 19:23 is a valid datetime\r\n5/20/15 7:43 XM is not a valid datetime\r\n07-43-19 3:63 is not a valid datetime\r\n07/03/1988 5:55 is a valid datetime\r\nab-cd-ef 19:23 AM is not a valid datetime\r\n11/1/1990 5:55 is a valid datetime\r\n9-15-05 5:55 is a valid datetime\r\n12-04-12 01:23 PM is a valid datetime\r\n9/2/230 12:3 is not a valid datetime",
+      "setup": "javac RegexTech.java",
+      "run": "java RegexTech",
+      "input": "ip1.txt\r\nurl1.txt\r\nfile1.txt",
+      "output": "192.168.1.1 is a valid IP address\r\na.b.c.d is not a valid IP address\r\n255.255.255.255 is a valid IP address\r\n312.212.987.432 is not a valid IP address\r\n0.0.0.0 is a valid IP address\r\n144.12.12.256 is not a valid IP address\r\n72.58.19.248 is a valid IP address\r\n\r\nhttp://www.howdy.com is a valid URL\r\nhtp://bad.com is not a valid URL\r\nhttps://tamu.edu is a valid URL\r\nhttps://ww.what.org is not a valid URL\r\nhttps://bye-bye.org is a valid URL\r\nhttps://not_gonna_work.com is not a valid URL\r\nhttp://www.old3.net is a valid URL\r\nhttps://maybe.nope is not a valid URL\r\n\r\nvalid.txt is a valid filename\r\nNOT!VALID.jpg is not a valid filename\r\nalso_valid.pdf is a valid filename\r\nno.extension is not a valid filename\r\nis-valid2.ext is a valid filename\r\nc#@0$.o is not a valid filename\r\nValid.as.Well.file is a valid filename\r\nprogram.c is a valid filename",
       "comparison": "included",
       "timeout": 10,
       "points": null
